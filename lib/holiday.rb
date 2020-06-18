@@ -75,7 +75,8 @@ def all_supplies_in_holidays(holiday_hash)
             word.capitalize!
           end
         supplies = hash.join(", ")
-        puts "  #{holiday}: #{supplies}"
+        holiday_string = holiday_array.join(" ")
+        puts "  #{holiday_string}: #{supplies}"
         else
           holiday.capitalize!
           supplies = hash.join(", ")
