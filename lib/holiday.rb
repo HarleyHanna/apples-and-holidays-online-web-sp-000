@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       hash.each do |key, hash|
         holiday = key.to_s
         holiday.capitalize!
-        supplies = hash.join(" ")
+        supplies = hash.join(", ")
         puts "#{holiday}: #{supplies}"
         end
       end
