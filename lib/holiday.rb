@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
         holiday = key.to_s
         holiday.capitalize!
         supplies = hash.join(", ")
-        puts "#{holiday}: #{supplies}"
+        puts "   #{holiday}: #{supplies}"
         end
       end
 end
